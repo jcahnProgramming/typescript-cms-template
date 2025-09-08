@@ -1,0 +1,28 @@
+.container{ width:100%; max-width:1080px; margin:0 auto; padding:0 20px; }
+.card{ background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.06); border-radius:var(--radius-lg); box-shadow:var(--shadow-1); }
+.btn{ display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:var(--radius-md); border:1px solid rgba(255,255,255,0.12); cursor:pointer; }
+.btn.primary{ background:var(--color-accent); color:#0b0f14; border-color:transparent; }
+.btn-tiny{ padding:4px 8px; font-size:12px; border-radius:8px; border:1px solid rgba(255,255,255,0.2); background:rgba(14,17,22,0.9); }
+.btn-tiny:hover{ background:rgba(255,255,255,0.1); }
+.tag{ font-size:12px; padding:4px 8px; border-radius:999px; background:rgba(255,255,255,0.06); }
+.adminbar{ position:sticky; top:0; z-index:1000; backdrop-filter: blur(10px); background:rgba(14,17,22,0.7); border-bottom:1px solid rgba(255,255,255,0.06); }
+.adminbar .tabs{ display:flex; gap:8px; padding:8px; }
+.adminbar .tab{ padding:8px 12px; border-radius:var(--radius-sm); cursor:pointer; }
+.adminbar .tab.active{ background:rgba(255,255,255,0.1); }
+.save-overlay{ position:fixed; right:20px; bottom:20px; z-index:1100; }
+.save-overlay .dirty{ background:#e5484d; color:white; border-color:transparent; }
+.save-overlay .clean{ background:#3ddc97; color:#0b0f14; border-color:transparent; }
+.playground{ display:grid; grid-template-columns: 260px 1fr 320px; gap:12px; padding:12px; }
+.playground__center{ position:relative; }
+.widgetlib{ padding:12px; }
+.widgetlib__header{ display:flex; gap:8px; align-items:center; margin-bottom:8px; }
+.widgetlib__search{ flex:1; padding:6px 8px; border-radius:8px; border:1px solid rgba(255,255,255,0.12); }
+.widgetlib__section{ margin-bottom:8px; }
+.widgetlib__sectionhead{ display:flex; justify-content:space-between; cursor:pointer; padding:6px 8px; border-radius:8px; }
+.widgetlib__items{ display:flex; flex-wrap:wrap; gap:6px; padding:6px 0 0 6px; }
+.inspector{ padding:12px; }
+.inspector__header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+.inspector__section{ margin-bottom:12px; }
+.inspector__title{ font-weight:700; margin-bottom:6px; }
+.inspector__grid{ display:grid; grid-template-columns: 80px 1fr; gap:6px; }
+.inspector__empty{ color: var(--color-muted); padding:12px; }

@@ -1,8 +1,8 @@
 import './globals.css';
-import '../styles/variables.css';
-import '../styles/base.css';
-import '../styles/components.css';
-import '../styles/images.css';
+import './styles/variables.css';
+import './styles/base.css';
+import './styles/components.css';
+import './styles/images.css';
 import AdminBar from '@/components/AdminBar';
 import { supabaseServer } from '@/lib/supabase-server';
 import type { Metadata } from 'next';

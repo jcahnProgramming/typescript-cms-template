@@ -1,0 +1,5 @@
+*{ box-sizing: border-box; }
+html,body{ margin:0; padding:0; background:var(--color-bg); color:var(--color-text); font-family: system-ui, -apple-system, Segoe UI, Inter, Roboto, Arial; }
+a{ color: var(--color-accent); text-decoration:none; }
+a:hover{ text-decoration:underline; }
+img{ max-width:100%; height:auto; display:block; }

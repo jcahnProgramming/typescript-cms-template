@@ -1,0 +1,8 @@
+/* app/globals.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: var(--color-bg, #fff);
+  color: var(--color-text, #000);
+}
