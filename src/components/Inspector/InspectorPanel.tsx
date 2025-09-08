@@ -28,4 +28,8 @@ return (
 </select>
 {kind==='link' && (<div className="inspector__grid"><label>Href</label><input onChange={e=>set('props.onClick.href', e.target.value)} /></div>)}
 {kind==='scroll' && (<div className="inspector__grid"><label>Selector</label><input onChange={e=>set('props.onClick.selector', e.target.value)} /></div>)}
-{kind==='emit' && (<div className="inspector__grid"><label>Event</Name>
+{kind==='emit' && (<div className="inspector__grid"><label>Event</label><input onChange={e=>set('props.onClick.event', e.target.value)} /></div>)}
+</div>
+</aside>
+);
+}

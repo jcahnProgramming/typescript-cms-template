@@ -1,8 +1,12 @@
 'use client';
+export default function DesignCanvas({
+blocks, setBlocks, designW=1440, designH=900, onDirty, onSelect, selectedId
+}:{
 blocks: PageVersionContent; setBlocks:(fn:(b:PageVersionContent)=>PageVersionContent)=>void;
 designW?: number; designH?: number; onDirty: ()=>void; onSelect:(id:string|null)=>void; selectedId: string|null;
 }){
-const scale=useScale(designW,designH); const rootRef=useRef<HTMLDivElement>(null);
+const scale=useScale(designW,designH);
+const rootRef=useRef<HTMLDivElement>(null);
 const [menu,setMenu]=useState<{open:boolean;x:number;y:number}>({open:false,x:0,y:0});
 const [hoverId,setHoverId]=useState<string|null>(null);
 
