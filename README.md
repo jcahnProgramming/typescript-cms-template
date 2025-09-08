@@ -60,4 +60,10 @@ It provides a **widget-based builder** with admin-controlled subdomains, permiss
 
 
 
+⚡️ Getting Started
 
+Clone the repo and install dependencies:
+
+git clone <repo-url>
+cd project-root
+npm install
