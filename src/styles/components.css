@@ -26,3 +26,10 @@
 .inspector__title{ font-weight:700; margin-bottom:6px; }
 .inspector__grid{ display:grid; grid-template-columns: 80px 1fr; gap:6px; }
 .inspector__empty{ color: var(--color-muted); padding:12px; }
+/* Buttons */
+.btn-secondary{ background:transparent; color:var(--color-text); border:1px solid rgba(255,255,255,0.25); }
+.btn-ghost{ background:transparent; color:var(--color-text); border:1px dashed rgba(255,255,255,0.25); }
+
+/* Tabs */
+.tab{ padding:8px 12px; border-radius:8px; border:1px solid rgba(255,255,255,0.15); background:rgba(255,255,255,0.04); cursor:pointer; }
+.tab.active{ background:var(--color-accent); color:#0b0f14; border-color:transparent; }
