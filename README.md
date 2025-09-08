@@ -113,3 +113,32 @@ Push and submit a pull request
 This project is licensed under the MIT License.
 
 ### ✨ Built to be flexible, fast, and future-proof.
+
+## Environment Variables
+
+This project uses Supabase and Next.js. Environment variables should be defined in a `.env.local` file at the root of the repository.
+
+Create a file called `.env.local` alongside `package.json` with the following contents:
+
+```bash
+# Supabase credentials (client‑side safe)
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-public-key
+
+# Supabase service key (⚠️ server-side only, do not expose to client)
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+# Optional: Supabase JWT secret (for custom auth policies)
+SUPABASE_JWT_SECRET=your-jwt-secret
+
+# Standard Next.js environment setting
+NODE_ENV=development
+```
+
+### Notes
+
+* Only variables prefixed with `NEXT_PUBLIC_` are exposed to the browser.
+* **Never commit real secrets.** Add `.env.local` to `.gitignore` (Next.js does this by default).
+* For production (e.g., Vercel), add the same variables in the project’s dashboard under **Settings → Environment Variables**.
+* You may commit an `.env.local.example` file (without secrets) to show required keys.
+
