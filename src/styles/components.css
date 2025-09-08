@@ -26,3 +26,4 @@
 .inspector__title{ font-weight:700; margin-bottom:6px; }
 .inspector__grid{ display:grid; grid-template-columns: 80px 1fr; gap:6px; }
 .inspector__empty{ color: var(--color-muted); padding:12px; }
+.canvas-resize-handle { cursor: nwse-resize; }
