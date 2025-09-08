@@ -57,13 +57,3 @@ It provides a **widget-based builder** with admin-controlled subdomains, permiss
 ├── package.json
 ├── README.md
 └── LICENSE
-
-
-
-⚡️ Getting Started
-
-Clone the repo and install dependencies:
-
-git clone <repo-url>
-cd project-root
-npm install
