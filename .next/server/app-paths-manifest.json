@@ -1,7 +1,5 @@
 {
-  "/test/[slug]/page": "app/test/[slug]/page.js",
   "/page": "app/page.js",
-  "/playground/page": "app/playground/page.js",
-  "/(site)/[slug]/page": "app/(site)/[slug]/page.js",
-  "/api/pages/[slug]/duplicate-to-test/route": "app/api/pages/[slug]/duplicate-to-test/route.js"
+  "/test/[slug]/page": "app/test/[slug]/page.js",
+  "/playground/page": "app/playground/page.js"
 }
