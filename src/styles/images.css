@@ -1,0 +1,2 @@
+.img-rounded{ border-radius:var(--radius-lg); }
+.img-softshadow{ box-shadow:var(--shadow-2); }
