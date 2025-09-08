@@ -82,3 +82,34 @@ Build for production:
 npm run build
 ```
 
+## 🛠 Tech Stack
+
+| Layer      | Tech                                       |
+| ---------- | ------------------------------------------ |
+| Frontend   | [React](https://react.dev)                 |
+| Styling    | Custom CSS (theme-based)                   |
+| Backend    | Node.js / [Supabase](https://supabase.com) |
+| Deployment | Vercel / Netlify                           |
+
+
+## 🤝 Contributing
+
+Contributions are always welcome! 🎉
+
+Fork the repository
+
+Create a feature branch:
+```bash
+git checkout -b feature/my-feature
+```
+
+Commit your changes
+
+Push and submit a pull request
+
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+### ✨ Built to be flexible, fast, and future-proof.
